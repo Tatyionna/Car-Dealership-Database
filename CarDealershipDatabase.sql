@@ -57,18 +57,18 @@ VALUES
 -- Input data into inventory table
 INSERT INTO Inventory (DealershipID, VIN)
 VALUES
-(1, '1HGCM82633A123456'), -- Tay's Auto owns Honda Civic
-(1, '2FTRX18W1XCA54321'), -- Tay's Auto owns Ford F-150
-(2, '5XYZT3LB0DG456789'), -- Auto World owns Hyundai Santa Fe
-(2, '3VWPL7AJ9EM765432'), -- Auto World owns Volkswagen Jetta
-(3, '1J4FA49S8YP987654'); -- Affordable Drive owns Jeep Wrangler
+(1, '1HGCM82633A123456'),
+(1, '2FTRX18W1XCA54321'), 
+(2, '5XYZT3LB0DG456789'), 
+(2, '3VWPL7AJ9EM765432'), 
+(3, '1J4FA49S8YP987654'); 
 
 
 -- Insert data to SalesContrat
 INSERT INTO SalesContract (CustomerFirstName, CustomerLastName, VIN)
 VALUES
-('John', 'Doe', '2FTRX18W1XCA54321'), -- Ford F-150 sold by Tay's Auto
-('Jane', 'Smith', '3VWPL7AJ9EM765432'); -- Volkswagen Jetta sold by Auto World
+('John', 'Doe', '2FTRX18W1XCA54321'), 
+('Jane', 'Smith', '3VWPL7AJ9EM765432'); 
 
 
 
